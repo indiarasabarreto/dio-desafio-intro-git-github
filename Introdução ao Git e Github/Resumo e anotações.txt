@@ -1,0 +1,8 @@
+- Git: é um sistema de controle de versão, através de sua estrutura interna,
+funciona como uma robô de integração e uma máquina do tempo muito veloz.
+Através do Git podemos gravar mudanças locais no nosso código utilizando
+uma ferramenta de linha de comando, podendo realizar alterações nos seus
+arquivos de código como normalmente faria durante o processo de desenvolvimento.
+
+ 
+
