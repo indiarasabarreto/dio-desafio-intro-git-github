@@ -6,3 +6,104 @@ arquivos de código como normalmente faria durante o processo de desenvolvimento
 
  
 
+- Comandos básicos: através da linha de comando, você utilizará alguns
+comandos básicos no terminal e alguns deles são:
+
+	- pwd – que verifica onde você está no sistema de arquivos atual.
+	- ls – lista arquivos no diretório atual.
+	- cd [nome-do-diretório] – move-se para o nome ou caminho do diretório fornecido.
+	- mkdir [nome-do-diretório] – cria um novo diretório com o nome escolhido.
+
+
+
+- Criando repositórios: o primeiro comando para iniciar um projeto
+utilizando o Git é o "git init". Após executar o comando, automaticamente
+o Git cria um arquivo ".git" oculto dentro do diretório principal de seu projeto.
+Este arquivo rastreia o histórico de versões do seu projeto, permitindo
+que você execute os comandos Git nele.
+
+
+
+
+- Fazendo alterações:
+
+	- git add ou git add* : após fazer alterações em seus arquivos,
+você deve colocá-los na área de preparação com o "git add", pelo nome do arquivo
+ou incluindo todo os arquivos na sua pasta atual com o comando "git add *".
+
+	- git commit -m "[mensagem]": é um comando que você precisa executar
+com uma mensagem sobre as alterações feitas nos seus arquivos, descrevendo o que foi modificado.
+
+	- git status: executando o "git status", voce pode visualizar um
+resumo dos arquivos que foram modificados e ainda nao confirmou.
+
+
+
+		GITHUB:
+
+Github é um serviço que permite hospedar seus repositórios Git on-line
+e colaborar com uma série de outros usuários.
+Podendo ser utilizado por meio do seu portal web, ou com GUI (Interface
+Gráfica do Usuário) e o Git Shell.
+Serviço prestado e utilizado por milhões de desenvolvedores e organizações,
+tornou-se padrão para colaboração em projetos de código fonte aberto.
+
+- Iniciando no Github: primeiramente vá ao site github.com e inscreva-se.
+
+- Criando e copiando repositórios: 
+
+	- fork: caso voce queira criar um novo repositório, deve executar o git init.
+No entanto, também pode trabalhar em projetos ja hospedados no GitHub que já foram inicializados.
+Uma das maneiras de copiar um repositório para sua conta do GitHub é com o "fork",
+disponível no próprio site.
+
+
+	- clone git [url]: o clone faz uma cópia de um repositório Git com seu
+histórico de versões, por sua URL, para o computador local a partir do GitHub.
+Você pode fazer e confirmar todas as suas alterações nesse repositório.
+
+
+- "Empurrando" e "Puxando" alterações com "Push" e "Pull": 
+
+
+	- git push [repo][branch]: para publicar um novo repositório inicializado
+ou qualquer alteração confirmada em seu repositório local para o GitHub, use o "git push"
+com o repositório e o branch do seu código.
+A sintaxe geralmente utilizada é "git push origin master", que enviará o seu código para o branch master
+do seu repositório.
+
+	- git pull: caso ocorra alguma alteração em algum repositório que queira extrair do
+GitHub para seu computador local, por exemplo, ao colaborar em um projeto com outros
+desenvolvedores, basta utilizar o "git pull".
+
+
+
+
+- Possíveis Conflitos: é importante lembrar que por mais que tenha um
+repositório hospedado no GitHub, o histórico de versões de sua cópia local
+pode ser diferente de versões do repositório que voê tem on-line.
+
+Com isso, caso você tente extrair ou enviar modificações para arquivos que já foream
+modificados por outras pessoas e estas modificações já estiverem no GitHub,
+você poderá entrar em um "merge conflict" (conflito de mesclagem).
+
+Esta situação normalmente acontece quando o histórico de versões do repositório
+em seu computador local é diferente do histórico de versões do GitHub.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
